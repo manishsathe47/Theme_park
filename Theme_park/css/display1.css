@@ -1,0 +1,30 @@
+body{
+	background-color: #e9ebee;
+}
+.com{
+	text-align: center;
+}
+.date{
+	font-weight: bold;
+}
+.maincontainer{
+	height: 400px;
+	width: 1000px;
+	margin-left: -500px;
+}
+.button{
+	text-align:center;
+	margin-top: -60px;
+	margin-left: 120px;
+	width: 50px;
+}
+.header{
+	font-family:italic;
+	margin-left: 180px;
+}
+
+.lk{
+	margin-left: 1400px;
+	font-family: italic;
+	font-size: 25px;
+}

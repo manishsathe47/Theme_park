@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+.carousel-inner image
+{
+    widows: 9px;;
+    height:10px;
+
+} 
+
+.navbar-nav
+{
+    margin-left: auto;
+}
+.carousel img 
+{
+    max-height: 550px;
+    margin: 0 auto;
+}
+.about_us_heading
+{
+
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.row
+{
+    width: 80%;
+    margin-left: 10%;
+}
+.img-fluid
+{
+    height: 300px;
+    width: 550px;
+}
+.btn
+{
+    border-radius: 0px;
+}
+.our_team
+{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.main_team
+{
+    float: left;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.sub_team
+{
+    float: left;
+    width: 350px;
+    margin-bottom: 15px;
+}
+.main_form
+{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.label_text
+{
+    font-size: 20px;
+}
+.about_us_heading 
+{ 
+    display: flex; 
+    flex-direction: row; 
+} 
+.about_us_heading:before, .about_us_heading:after 
+{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+.our_team 
+{ 
+    display: flex; 
+    flex-direction: row; 
+}
+.our_team:before, .our_team::after
+{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+@media only screen and (max-width: 766px) 
+{
+    .row
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+    .main_team
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .sub_team
+    {
+        width: 100%;
+    }
+
+}
+
+h2{
+  margin-top:-40px; 
+  text-align: justify;
+  font-family: italic;
+  margin-left: -100px;
+}
+
+h3{
+  margin-top:-50px; 
+  text-align: justify;
+  margin-left: 50px;
+  font-size: 50px;
+  font-family: italic;
+}
+
+h4{
+  background-color: black;
+  color: blue;
+  text-align: justify;
+  width: 1500px;
+  margin-left: -174px;
+}
